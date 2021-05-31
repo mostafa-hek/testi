@@ -33,6 +33,10 @@ class UserController extends Controller
             'api_token' => Str::random(100)
         ]);
 
+
+
+        //5555
+
         return new UserResource($user);
         /* return User::create([
              'name' => $data['name'],
